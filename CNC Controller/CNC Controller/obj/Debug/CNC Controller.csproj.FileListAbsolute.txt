@@ -1,0 +1,14 @@
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\bin\Debug\CNC Controller.exe.config
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\CNC Controller.csprojResolveAssemblyReference.cache
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\CNC_Controller.Properties.Resources.resources
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\CNC Controller.csproj.GenerateResource.Cache
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\bin\Debug\CNC Controller.exe
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\bin\Debug\CNC Controller.pdb
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\CNC Controller.exe
+C:\Users\My Computer\Documents\Visual Studio 2015\Projects\CNC Controller\CNC Controller\obj\Debug\CNC Controller.pdb
+C:\Users\My Computer\Documents\Processing\Collisions2\CNC_Machine\CNC Controller\CNC Controller\bin\Debug\CNC Controller.exe.config
+C:\Users\My Computer\Documents\Processing\Collisions2\CNC_Machine\CNC Controller\CNC Controller\obj\Debug\CNC Controller.exe
+C:\Users\My Computer\Documents\Processing\Collisions2\CNC_Machine\CNC Controller\CNC Controller\obj\Debug\CNC Controller.pdb
