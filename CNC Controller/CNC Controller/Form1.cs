@@ -138,9 +138,7 @@ namespace WindowsFormsApplication1 {
             RunProgram();
         }
         private void stopButton_Click(object sender, EventArgs e) {
-
             StopProgram();
-
         }
 
         private void portSelector_SelectedIndexChanged(object sender, EventArgs e) {
@@ -205,6 +203,7 @@ namespace WindowsFormsApplication1 {
             headMonitor.PaintSelf(e);
         }
 
+        //In charge of turning a linechain map into an instruction set.
         private void LoadFile(object sender, EventArgs e) {
 
             List<Vector3> pointlist = new List<Vector3>();
