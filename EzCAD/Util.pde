@@ -5,10 +5,11 @@ import java.util.Iterator;
  *
  */
 class LinkedList <T> implements Iterable<T>{
-  Node<T> start;
+ 
   
   int index;
   int size;
+  Node<T> start;
   Node<T> focus;
   Node<T> last;
   boolean destroyed;
@@ -16,6 +17,12 @@ class LinkedList <T> implements Iterable<T>{
   LinkedList(){
     index = 0;
     size = 0;
+  }
+  //linked list with one element.
+  LinkedList(T e){
+    start = last = new Node<T>(e,null);
+    size = 1;
+    
   }
   LinkedList(T... e){
     this();
@@ -153,6 +160,9 @@ class LinkedList <T> implements Iterable<T>{
   }
   //moves focus to index n and increments index counter.  
   void focusTo(int n){
+    if(n>=size){
+      throw new ArrayIndexOutOfBoundsException(Integer.toString(n));
+    }
     if(destroyed){
       print("Attempted accessing destroyed LinkedList:",this);
       exit();
@@ -176,11 +186,15 @@ class LinkedList <T> implements Iterable<T>{
   Iterator<T> iterator(){
     return new Iterator<T>(){
       Node<T> curr;
-      boolean hasNext(){
+      
+      public boolean hasNext(){
         return curr.next != null;
       }
       
-      T next(){
+      public T next(){
+        if(curr == null){
+          return (curr = start).o;
+        }
         return (curr = curr.next).o;
       }
     };

@@ -37,20 +37,32 @@ class TestScreen2 extends Screen{
     };
   
   }
+  /* Format:
+   * [1,2*3,4*5,6*5,22]![]
+   * 
+   * 
+   * 
+   */
   void makeFile(){
     PrintWriter file = createWriter(textbox.text+".txt"); 
-    ArrayList<PVector[]> data = c.linedata;
-    for(PVector[] line : data){
-      String s = String.format("0%f,1%f,2%f,3%f.",line[0].x,line[0].y,line[1].x,line[1].y);
-      file.print(s);
+    ArrayList<Linechain> data = c.linechainlist;
+    StringBuilder out = new StringBuilder();
+    for(Linechain l :data){
+      out.append('[');
+      for(PVector v :l){
+        out.append(String.format("%d,%d*"));
+      }
+      out.setCharAt(out.length()-1,']');
+      out.append("!");
     }
+    out.deleteCharAt(out.length()-1);
+    file.print(out.toString());
     file.flush();
     file.close();
   }
   void update(){
     background(255);
     super.update();
-  
   }
 
 }
